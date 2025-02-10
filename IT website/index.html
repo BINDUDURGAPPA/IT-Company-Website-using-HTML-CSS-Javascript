@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Profile</title>
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap" rel="stylesheet">  
+</head>
+<body>
+    <!-- Start Header -->
+    <div class="header" id="header">
+        <div class="container">
+            <a href="#company" class="logo">TechIQ Company</a>
+            <ul class="main-nav">
+                <li><a href="#aboutus">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="Personal Portfolio/index.html">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li> 
+                <div id="search">
+                    <form>
+                        <input type="text" id="chat-query" placeholder="Ask our Chatbot..." class="search-input">
+                        <button type="button" class="search-btn" onclick="openChatbot()">Chat</button>
+                    </form>
+                </div>
+            </ul>
+        </div>
+    </div>
+    <!-- End Header -->
+    <button id="scroll-up" onclick="topScroll()"> <i class="fa-solid fa-angles-up"></i></button>
+    <!-- Start Landing -->
+    <div class="landing">
+        <div class="container">
+          <div class="slider">
+            <div class="list">
+              <div class="item">
+                <div class="text">
+                  <h1>IT Website</h1>
+                  <p>Web design is not just about creating pretty layouts. It's about understanding the marketing challenge behind 
+                your business.Start where you are. Use what you have. Do what you can."</p>
+                </div>
+                <div class="image">
+                    <img src="img/bg1.jpg" alt="landing-image">
+                </div>
+              </div>
+              <div class="item">
+                <div class="text">
+                  <h1>Company Aim</h1>
+                  <p>"At TechIQ, we believe in the power of innovation to drive positive change. We are dedicated to exceeding expectations through quality, collaboration, and a relentless pursuit of excellence. Our commitment to customer satisfaction fuels our passion to 
+                    deliver solutions that not only meet but anticipate your needs, propelling your business forward with every step."</p>
+                </div>
+                <div class="image">
+                    <img src="img/bg2.jpeg" alt="landing-image">
+                </div>
+              </div>
+              <div class="item">
+                <div class="text">
+                  <h1>Crafting Experiences That Inspire</h1>
+                  <p>"I strive for two things in design: simplicity and clarity. Great design is born of those two things.Styles come and go. Good design is a language, not a style."</p>
+                </div>
+                <div class="image">
+                    <img src="img/bg3.avif" alt="landing-image">
+                </div>
+              </div>
+            </div>
+            <div class="buttons">
+              <button id="prev"><</button>
+              <button id="next">></button>
+            </div>
+          </div>
+            
+        </div>
+    </div>
+    <!-- End Landing -->
+
+     <!-- Start About us -->
+      <div class="aboutus" id="aboutus">
+        <h2 class="main-title">About Us</h2>
+        <div class="container">
+          <div class="box">
+            <img src="img/a1.jpg" alt="">
+            <div class="content">
+              <h3>Established & Trusted IT Partner</h3>
+              <details>
+                <summary>Know more</summary>
+                <p>At IT Solutions, we specialize in providing high-performance, scalable, and secure IT solutions to businesses across various industries. With a proven track record of excellence, we have helped companies leverage technology to streamline operations, enhance security, and drive digital transformation.</p>
+              </details>
+              
+            </div>
+            
+          </div>
+          <div class="box">
+            <img src="img/a2.png" alt="">
+            <div class="content">
+              <h3>Future-Driven IT Solutions</h3>
+              <details>
+                <summary>Know more</summary>
+                <p>At IT Solutions, we believe that technology should work for you—not against you. As a leading IT services provider, we help businesses of all sizes adapt to the fast-evolving digital world with cutting-edge IT strategies and solutions.</p>
+              </details>
+              
+            </div>
+            
+          </div>
+          <div class="box">
+            <img src="img/a3.png" alt="">
+            <div class="content">
+              <h3>Innovation, Security, and Performance</h3>
+              <details>
+                <summary>Know more</summary>
+                <p>At IT Solutions, we combine technological innovation with strategic expertise to deliver IT solutions that help businesses grow, secure their data, and stay ahead of the competition.</p>
+              </details>
+              
+              
+            </div>
+            
+          </div>
+          <div class="box">
+            <img src="img/a4.png" alt="">
+            <div class="content">
+
+              <h3>Your Trusted Technology Partner</h3>
+                <details>
+                    <summary>Know more</summary>
+                    <p>Technology is at the core of every successful business, and at IT Solutions, we help organizations harness its full potential. With years of industry experience, we offer innovative, secure, and scalable IT solutions that drive business success.</p>
+                  </details>
+              
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      <div class="spikes"></div>
+       
+       
+         <!-- Start services -->
+          <div class="services" id="services">
+            <h2 class="main-title">Services</h2>
+            <div class="container">
+              <div class="box">
+                <i class="fa-solid fa-user-shield"></i>
+                <h3>Security</h3>
+                <div class="info">
+                  <a href="#">Details</a>
+                  <p>Great Services</p>
+                  
+                </div>
+              </div>
+              <div class="box">
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+                <h3>Fixing Issues</h3>
+                <div class="info">
+                  <a href="#">Details</a>
+                  <p>Quickly fixing issues</p>
+                </div>
+              </div>
+              <div class="box">
+                <i class="fa-solid fa-chart-column"></i>
+                <h3>Performance</h3>
+                <div class="info">
+                  <a href="#">Details</a>
+                  <p>Excellent Performance</p>
+                </div>
+              </div>
+              <div class="box">
+                <i class="fa-solid fa-laptop-code"></i>
+                <h3>Coding</h3>
+                <div class="info">
+                  <a href="#">Details</a>
+                  <p>Amazing Coding</p>
+                </div>
+              </div>
+              <div class="box">
+                <i class="fa-solid fa-palette"></i>
+                <h3>Desgin</h3>
+                <div class="info">
+                  <a href="#">Details</a>
+                  <p>Wonderful Design</p>
+                </div>
+              </div>
+              <div class="box">
+                <i class="fa-solid fa-bullhorn"></i>
+                <h3>Marketing</h3>
+                <div class="info">
+                  <a href="#">Details</a>
+                  <p>Good Marketing</p>
+                </div>
+              </div>
+            </div>
+          </div>
+         <!-- End services -->
+          
+
+           
+            
+
+             <!-- Start FAQs -->
+              <div class="faqs" id="faqs">
+                <h2 class="main-title">FAQS</h2>
+                <div class="container">
+                  <div class="section">
+                    <div class="faq">
+                      <div class="question">
+                          <h3>What types of websites do you specialize in creating?</h3>
+                          <i class="fa-solid fa-angle-up"></i>
+                      </div>
+                      <div class="answer">
+                        <p>We specialize in developing a wide range of websites, including e-commerce platforms, portfolio sites, business websites, and custom web applications tailored to meet your specific needs.</p>
+                      </div>
+                    </div>
+
+                    <div class="faq">
+                      <div class="question">
+                          <h3>How long does it take to complete a website project?</h3>
+                          <i class="fa-solid fa-angle-up"></i>
+                      </div>
+                      <div class="answer">
+                        <p>The timeline for completing a website project varies depending on the complexity and requirements. On average, a standard website takes 4-6 weeks, while more complex projects may take longer.</p>
+                      </div>
+                    </div>
+
+                    <div class="faq">
+                      <div class="question">
+                          <h3>Do you offer website maintenance and support after the project is completed?</h3>
+                          <i class="fa-solid fa-angle-up"></i>
+                      </div>
+                      <div class="answer">
+                        <p>Yes, we offer ongoing maintenance and support services to ensure your website remains up-to-date, secure, and fully functional. We can provide customized support plans based on your needs.</p>
+                      </div>
+                    </div>
+
+                    <div class="faq">
+                      <div class="question">
+                          <h3>Can you help with website content creation and SEO optimization?</h3>
+                          <i class="fa-solid fa-angle-up"></i>
+                      </div>
+                      <div class="answer">
+                        <p>Absolutely! We offer content creation services to craft compelling copy for your website, as well as SEO optimization to improve your site's visibility on search engines and drive more traffic to your business.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+             <!-- End FAQs -->
+
+              <!-- Start Subscribe -->
+
+              <div class="faqs" id="faqs">
+                <h2 class="main-title">Contact</h2>
+                <div class="container">
+                  <div class="section">
+                    <div class="faq">
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+              <div class="events" id="events">
+                <div class="container">
+                  
+                  <div class="info">
+                    <div class="time">
+                      
+                      
+                    
+                  <div class="subscribe" id="#subscribe">
+                    <form action="">
+                      <input type="email" name="" placeholder="Enter Your Email">
+                      <input type="submit" value="Subscribe">
+                    </form>
+                  </div>
+                </div>
+               </div>
+              <!-- End Subscribe -->
+
+              <!---- Start Contact me-->
+
+              <section class="contact-content" id="contact">
+                <div class="container">
+                    <div class="contact-title">
+                    <h2>Contact Me</h2>
+                    <p>Get In Touch</p>
+                    <form id="contactForm">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                        <span class="error" id="nameError"></span>
+                        <input type="email" id="email" placeholder="Your Email" required>
+                        <span class="error" id="emailError"></span>
+                        <textarea id="message" placeholder="Your Message"></textarea>
+                        <span class="error" id="messageError"></span>
+                        <button type="submit">Submit</button>
+                    </form>
+
+                    
+
+                    <!-----End Contact me-->
+
+                    
+
+  
+
+             
+      <script src="script.js"></script>
+</body>
+</html>
